@@ -1,0 +1,32 @@
+.en_tete {
+	height: 20vh;
+	background-color: white;
+	padding: 16px;
+	border-radius: 4px;
+}
+
+#menus{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-ap: 8px;
+	padding: 16px;
+}
+
+#menu{
+	text-align: center;
+	padding: 16px;
+	border-radius: 24px;
+	margin: 10px;
+}
+
+
+@media (min-width: 768px) {
+	#menus{
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+}
+
+.logo-ana{
+	height: 105px;
+	width: 105px;
+}

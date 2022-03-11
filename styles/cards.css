@@ -1,0 +1,47 @@
+.card-articles{
+	background-color: #3A5A89;
+	text-align: center;
+	padding: 16px;
+	border-radius: 4px;
+	margin: 10px;
+	box-shadow: 1px 1px 5px 6px rgba(255, 255, 255, 0.7);
+	display: flex;
+	flex-direction: column;
+	justify-self: space-between;
+	align-items: center;
+}
+.card-boutique{
+	background-color: #7A95AA;
+	text-align: center;
+	padding: 16px;
+	border-radius: 4px;
+	margin: 10px;
+	box-shadow: 1px 1px 5px 6px rgba(255, 255, 255, 0.7);
+	display: flex;
+	flex-direction: column;
+	justify-self: space-between;
+	align-items: center;
+}
+
+.cards-white{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-ap: 8px;
+}
+
+
+@media (min-width: 576px) {
+	.cards-white{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 768px) {
+	.cards-white{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+.card-img{
+	width: 80%;
+}

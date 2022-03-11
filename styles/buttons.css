@@ -1,0 +1,36 @@
+
+.btn-blue:hover {
+	background-color: #C3332D;
+	color: #012066;
+	transition: 1s;
+}
+
+.btn-menu {
+	transition: 1s;
+	color: black;
+}
+
+.btn-menu:hover {
+	color: orange;
+	transition: 1s;
+	padding: 24px 16px;
+	font-size: 24px;
+	margin-bottom: 24px;
+	font-weight: bolder;
+}
+
+.btn-card {
+	transition: 1s;
+	color: white;
+	background-color: orange;
+}
+.btn-card:hover {
+	color: orange;
+	background-color: black;
+	transition: 1s;
+	padding: 24px 16px;
+	font-size: 24px;
+	margin-bottom: 24px;
+	font-weight: bolder;
+
+}

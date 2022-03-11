@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@100&display=swap');
+
+@import url("banner.css");
+
+@import url("buttons.css");
+
+@import url("cards.css");
+
+@import url("en_tete.css");
+
+@import url("footer.css");
+
+a{
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url("../image/background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+	font-family: 'Arvo', solid;
+}
+
+.titre{
+	color: white;
+	padding-left: 10px;
+	transition: 1s;
+}
+.titre:hover{
+	color: black;
+	font-size: 30px;
+	transition: 1s;
+}
+
+.container-articles{
+	width: 100%;
+	background-color: #637949;
+	background-size: cover;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.container-boutique{
+	width: 100%;
+	background-color: #3768A8;
+	background-size: cover;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.carou{
+	width: 50%;
+    margin: 16px auto;
+}
